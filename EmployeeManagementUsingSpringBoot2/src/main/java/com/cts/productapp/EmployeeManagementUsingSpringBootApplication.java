@@ -10,6 +10,7 @@ public class EmployeeManagementUsingSpringBootApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(EmployeeManagementUsingSpringBootApplication.class, args);
 //		EmployeeService service = context.getBean(EmployeeService.class, "service");
+		System.out.println("changed from sts");
 //		System.out.println(service);
 //		String employeeName;
 //		int employeeId;
